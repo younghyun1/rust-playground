@@ -16,5 +16,23 @@
 // }
 
 // sync
+fn main() {
+}
 
-fn main() {}
+// no_std
+// #![no_std]
+// #![no_main]
+
+// use core::panic::PanicInfo;
+
+// // Define the entry point
+// #[no_mangle]
+// pub extern "C" fn start() -> ! {
+//     loop {}
+// }
+
+// // Define what happens on panic
+// #[panic_handler]
+// fn panic(_info: &PanicInfo) -> ! {
+//     loop {}
+// }

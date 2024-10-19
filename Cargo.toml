@@ -14,9 +14,9 @@ panic = "abort"
 
 [dependencies]
 # async
-tokio = { version = "1.40.0", features = [
-    "macros",
-    "rt-multi-thread",
-    "fs",
-    "time",
-] }
+# tokio = { version = "1.40.0", features = [
+#     "macros",
+#     "rt-multi-thread",
+#     "fs",
+#     "time",
+# ] }
