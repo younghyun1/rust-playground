@@ -1,0 +1,22 @@
+[package]
+name = "playground"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+opt-level = 3
+codegen-units = 1
+debug = false
+incremental = false
+strip = true
+lto = true
+panic = "abort"
+
+[dependencies]
+# async
+tokio = { version = "1.40.0", features = [
+    "macros",
+    "rt-multi-thread",
+    "fs",
+    "time",
+] }
